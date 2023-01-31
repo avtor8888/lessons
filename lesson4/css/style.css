@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url(https://fonts.googleapis.com/css?family=Sofia+Sans:500italic,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+JP:700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Goldman:regular,700);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Zaychik";
+  src: url("/lesson4/fonts/Zaychik.woff2") format("woff2"), url("../fonts/Zaychik.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DuskDemon";
+  src: url("/lesson4/fonts/DuskDemon.woff2") format("woff2"), url("../fonts/DuskDemon.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Orpheus";
+  src: url("/lesson4/fonts/Orpheus.woff2") format("woff2"), url("../fonts/Orpheus.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-size: 20px;
+  background-color: rgb(120, 120, 120);
+}
+
+h1 {
+  font-family: "Sofia+Sans";
+  font-style: italic;
+  font-weight: 700;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main__item {
+  text-shadow: 2px 2px 2px rgba(246, 7, 7, 0.778);
+}
+
+.main__item img {
+  width: 150px;
+}
+
+.item__title {
+  font-family: "Sofia+Sans";
+  font-weight: 500;
+  font-style: italic;
+  color: aqua;
+  font-size: 30px;
+  text-align: right;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.item__text1 {
+  font-family: "IBM+Plex+Sans+JP";
+  font-weight: 700;
+  color: rgb(64, 30, 94);
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: overline;
+}
+
+.item__text2 {
+  font-family: "Zaychik";
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.item__text3 {
+  font-family: "Circular Std";
+  font-size: 25px;
+  color: red;
+  line-height: 2;
+  text-transform: lowercase;
+}
+
+.item__text4 {
+  font-family: "DuskDemon";
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.item__text5 {
+  font-family: "Orpheus";
+  font-family: 25px;
+  text-indent: 30px;
+  word-spacing: 15px;
+}
+
+.item__text6 {
+  font-family: "Goldman";
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
