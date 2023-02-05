@@ -1,0 +1,152 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,700&display=swap);
+
+body{
+background-color: E5E5E5;
+padding: 50px 0;
+font-family: "Poppins";
+}
+.wrapper {
+	width: 1240px;
+	margin: 0 auto;
+}
+.header__title {
+	font-size: 12px;
+}
+.htOpacity {
+	color: #6C757D;
+}
+.htBold {
+	background-color: rgba(255, 255, 255, 0);
+	font-weight: 700;
+}
+.text p{
+	width: 816px;
+	margin: 0 auto;
+}
+.title {
+	margin: 0 auto;
+	width: 816px;
+}
+.main__title {
+	
+}
+.main__text {
+	margin: 0 auto;
+}
+.main__text img{
+	margin: 50px 0;
+	padding: 0 0 0 10px;
+	
+}
+.image img{
+	max-width: 600px;
+display: inline-block;
+padding-left: 20px;
+}
+.main__text p{
+	padding: 15px 0;	
+}
+.text {
+	font-size: 14px;
+	color: #6C757D;
+	line-height: 1.78;
+	
+}
+.title{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #212529;
+	margin: 20px auto;
+}
+
+.second-page{
+	display: inline-block;
+	border: 2px solid rgb(255, 115, 0);
+	border-radius: 30px;
+	width: 150px;
+	height: 60px;
+	padding: 20px 20px;
+background-color: orange;
+color: white;
+}
+a:hover{
+	transform: scale(1.5);
+}
+
+/* home task */
+.home_task {
+	margin: 0 auto;
+	width: 1200px;
+	text-align: center;
+}
+.task {
+}
+.task__title {
+	color: orange;
+	padding-left: 150px;
+}
+.title {
+	font-size: 30px;
+}
+.task__text {
+	width: 600px;
+	margin: 0 0 30px auto;
+}
+
+.item__task {
+	display:flex;
+}
+.item__task img{
+width: 250px;
+}
+.world__trip {
+}
+.task {
+}
+.title__world {
+}
+.item__world p{
+	display: inline-block; 
+	width: 300px;
+}
+.item__world img{
+	display: inline;
+	width: 200px;
+	padding: 0 20px 0 40px ;
+}
+.about__world {
+	margin: 0 0 0 auto;
+	width: 600px;
+	height: 300px;
+overflow: scroll;
+}
+
+.contact__trip {
+	max-width: 1000px;
+	overflow: hidden;
+	display: inline-block;
+
+}
+.title__contact h2{
+font-size: 40px;
+color: #6C757D;
+}
+.item__contact img{
+	max-width: 400px;
+	padding: 30px;
+}
+.button-two a{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	display: inline-block;
+	border: 2px solid rgb(90, 87, 84);
+	border-radius: 30px;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+background-color: rgb(118, 109, 92);
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
